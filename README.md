@@ -1,8 +1,5 @@
 # Voice Q&A With Eleven Labs API, Whisper API, ChatGPT API, Embeddings, Gradio
 
-Video Demo / Tutorial:
-
-https://www.youtube.com/watch?v=Lsn_OR9Fr3s
 
 ## Setup
 
