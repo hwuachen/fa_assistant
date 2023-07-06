@@ -16,10 +16,10 @@ def transcribe(audio):
     global messages, question_df
 
     # API now requires an extension so we will rename the file
-    audio_filename_with_extension = audio + '.wav'
-    os.rename(audio, audio_filename_with_extension)
+    # audio_filename_with_extension = audio + '.wav'
+    # os.rename(audio, audio_filename_with_extension)
 
-    audio_file = open(audio_filename_with_extension, "rb")
+    audio_file = open(audio, "rb")
     transcript = openai.Audio.transcribe("whisper-1", audio_file)
 
     question_vector = get_embedding(transcript['text'], engine='text-embedding-ada-002')
