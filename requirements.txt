@@ -5,3 +5,5 @@ openai
 gradio
 plotly
 requests
+youtube-dl
+ffmpeg
